@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/hoffmann-muki/home/static/css/main.a617e044.chunk.css",
-    "main.js": "/hoffmann-muki/home/static/js/main.5385b7f4.chunk.js",
-    "main.js.map": "/hoffmann-muki/home/static/js/main.5385b7f4.chunk.js.map",
-    "runtime-main.js": "/hoffmann-muki/home/static/js/runtime-main.99ee5a9d.js",
-    "runtime-main.js.map": "/hoffmann-muki/home/static/js/runtime-main.99ee5a9d.js.map",
-    "static/js/2.689412da.chunk.js": "/hoffmann-muki/home/static/js/2.689412da.chunk.js",
-    "static/js/2.689412da.chunk.js.map": "/hoffmann-muki/home/static/js/2.689412da.chunk.js.map",
-    "static/js/3.31e5f214.chunk.js": "/hoffmann-muki/home/static/js/3.31e5f214.chunk.js",
-    "static/js/3.31e5f214.chunk.js.map": "/hoffmann-muki/home/static/js/3.31e5f214.chunk.js.map",
-    "index.html": "/hoffmann-muki/home/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/hoffmann-muki/home/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.689412da.chunk.js.LICENSE.txt": "/hoffmann-muki/home/static/js/2.689412da.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/hoffmann-muki/home/static/media/logo.6ce24c58.svg"
+    "main.css": "/hoffmann-muki/hoffmann-muki.github.io/static/css/main.a617e044.chunk.css",
+    "main.js": "/hoffmann-muki/hoffmann-muki.github.io/static/js/main.11618466.chunk.js",
+    "main.js.map": "/hoffmann-muki/hoffmann-muki.github.io/static/js/main.11618466.chunk.js.map",
+    "runtime-main.js": "/hoffmann-muki/hoffmann-muki.github.io/static/js/runtime-main.6e17a6be.js",
+    "runtime-main.js.map": "/hoffmann-muki/hoffmann-muki.github.io/static/js/runtime-main.6e17a6be.js.map",
+    "static/js/2.61fdb924.chunk.js": "/hoffmann-muki/hoffmann-muki.github.io/static/js/2.61fdb924.chunk.js",
+    "static/js/2.61fdb924.chunk.js.map": "/hoffmann-muki/hoffmann-muki.github.io/static/js/2.61fdb924.chunk.js.map",
+    "static/js/3.21e4e40f.chunk.js": "/hoffmann-muki/hoffmann-muki.github.io/static/js/3.21e4e40f.chunk.js",
+    "static/js/3.21e4e40f.chunk.js.map": "/hoffmann-muki/hoffmann-muki.github.io/static/js/3.21e4e40f.chunk.js.map",
+    "index.html": "/hoffmann-muki/hoffmann-muki.github.io/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/hoffmann-muki/hoffmann-muki.github.io/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.61fdb924.chunk.js.LICENSE.txt": "/hoffmann-muki/hoffmann-muki.github.io/static/js/2.61fdb924.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/hoffmann-muki/hoffmann-muki.github.io/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.99ee5a9d.js",
-    "static/js/2.689412da.chunk.js",
+    "static/js/runtime-main.6e17a6be.js",
+    "static/js/2.61fdb924.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.5385b7f4.chunk.js"
+    "static/js/main.11618466.chunk.js"
   ]
 }
