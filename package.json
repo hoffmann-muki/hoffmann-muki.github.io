@@ -1,6 +1,6 @@
 {
-  "name": "home",
-  "homepage": "https://github.com/hoffmann-muki/home",
+  "name": "hoffmann-muki.github.io",
+  "homepage": "https://github.com/hoffmann-muki/hoffmann-muki.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
