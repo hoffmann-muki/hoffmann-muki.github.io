@@ -39,7 +39,7 @@ const MainPage = () => {
 }
 
 const books = [
-    { id: 1, title: "Soaring above life's turbulence", imageUrl: "/assets/soaring.png" },
+    { id: 1, title: "The lean startup", imageUrl: "/assets/lean startup.png"},
     { id: 2, title: "Free", imageUrl: "/assets/free.png" },
     { id: 3, title: "Castles in the Air", imageUrl: "/assets/castles.png" },
     { id: 4, title: "Think Again", imageUrl: "/assets/think again.png" },
@@ -54,11 +54,17 @@ const books = [
     { id: 13, title: "The Changing World Order", imageUrl: "/assets/changing world order.png"},
     { id: 14, title: "Atomic Habits", imageUrl: "/assets/atomic habits.png"},
     { id: 15, title: "The Science of Storytelling", imageUrl: "/assets/stories.png"},
-    { id: 16, title: "Educated", imageUrl: "/assets/educated.png"}
+    { id: 16, title: "Educated", imageUrl: "/assets/educated.png"},
+    { id: 17, title: "Genuine Intellectuals", imageUrl: "/assets/genuine intellectual.png"},
+    { id: 18, title: "So good that they can't ignore you", imageUrl: "/assets/so good.png"},
+    { id: 19, title: "Designing data-intensive applications", imageUrl: "/assets/ddia.png"},
+    { id: 20, title: "Clean Architecture", imageUrl: "/assets/clean architecture.png"},
+    { id: 21, title: "Crafting Interpreters", imageUrl: "/assets/interpreters.png"},
+    { id: 22, title: "Ego is the Enemy", imageUrl: "/assets/ego.png"},
+    { id: 23, title: "The obstacle is the way", imageUrl: "/assets/obstacles.png"},
+    { id: 24, title: "Hidden potential", imageUrl: "/assets/potential.png"},
+    { id: 25, title: "Soaring above life's turbulence", imageUrl: "/assets/soaring.png" },     
   ];
-
-// with other people: ego is the enemy, so good they can't ignore you
-// not with me: the genuine intellectual
 
 const List = () => {
     return (

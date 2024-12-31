@@ -35,9 +35,11 @@ const MainPage = () => {
               <p>I'm interested in studying systems for machine learning, most especially methods involved in making the underlying frameworks more performant and scalable.</p>
               <p>You can find some of my hobby projects <a href="https://github.com/hoffmann-muki">here</a>.</p>
               <p>In addition to programming, I like reading books of all sorts: memoirs, startups, organizational management, philosophy and personal development.</p>
+              <p>I love competitive sports and my favourites are football (soccer) and tennis. I sometimes keep up with boxing, basketball and f1.</p>
+              <p>Music is food for my soul, my Spotify handle is <a style={{color: "green"}} href="https://open.spotify.com/user/p431tdvane78cij0jub9m8gfw">https://open.spotify.com/user/p431tdvane78cij0jub9m8gfw</a>.</p>
               <h2 id="contact-me">Contact Me</h2>
               <hr/>
-              <p>I am glad to discuss ideas related to programming languages, compilers, virtual machines, functional programming and anything related to engineering and science. If you have any exciting ideas, please drop me an email.</p>
+              <p>I am glad to discuss ideas related to programming languages, compilers, virtual machines, functional programming and anything related to startups, mathematics, engineering and science. If you have any exciting ideas, please drop me an email.</p>
             </section>
           </div>
         </div>

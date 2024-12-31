@@ -5,8 +5,8 @@ import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 export const Sidebar = () => {
   return (
-    <div class="sidebar sticky">
-        <div itemtype="http://schema.org/Person" style={{ paddingLeft: 8}}>
+    <div class="sidebar">
+        <div style={{ paddingLeft: 8 }}>
           <div class="author__avatar"> 
             <img src="/images/AmexPic.jpg" class="author__avatar" alt="Hoffmann Muki"/>
           </div>
