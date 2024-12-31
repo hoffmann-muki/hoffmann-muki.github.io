@@ -1,5 +1,6 @@
 import React from "react";
 import '../../styles/styles.css';
+import './cv.styles.css';
 import { Header } from "../Shared/Header.component";
 import { Sidebar } from "../Shared/Sidebar.component";
 
@@ -21,4 +22,10 @@ const Body = () => {
   );
 }
 
-const MainPage = () => {}
+const MainPage = () => {
+    return (
+        <div class="iframe-container">
+            <iframe src="assets/Hoffmann_Muki_CV.pdf" width="750" height="800"></iframe>
+        </div>
+    )
+}

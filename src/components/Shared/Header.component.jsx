@@ -1,13 +1,14 @@
 import '../../styles/styles.css';
 
-const homePageLink = "https://hoffmann-muki.github.io/";
-// const homePageLink = "http://localhost:3000";
-const projectsPageLink = "https://hoffmann-muki.github.io/#/projects/";
-// const projectsPageLink = "http://localhost:3000/#/projects/";
-const booksPageLink = "https://hoffmann-muki.github.io/#/books";
-// const booksPageLink = "http://localhost:3000/#/books/";
-const cvPageLink = "https://hoffmann-muki.github.io/#/cv/";
-// const cvPageLink = "http://localhost:3000/#/cv/";
+let isLocal = false;
+
+const GithubDomain = "https://hoffmann-muki.github.io/";
+const localhostDomain = "http://localhost:3000";
+
+const homePageLink = isLocal ? localhostDomain : GithubDomain;
+const projectsPageLink = isLocal ? localhostDomain + "#/projects/" : GithubDomain + "#/projects/";
+const booksPageLink = isLocal ? localhostDomain + "#/books/" : GithubDomain + "#/books/";
+const cvPageLink = isLocal ? localhostDomain + "#/cv/" : GithubDomain + "#/cv/";
 
 export const Header = () => {
   return (

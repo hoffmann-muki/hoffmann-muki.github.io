@@ -1,0 +1,12 @@
+/* Container to center the iframe */
+.iframe-container {
+  display: flex; /* Use Flexbox to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Take full height of the viewport */
+}
+
+iframe {
+  max-width: 100%; /* Ensure iframe doesn't exceed container width */
+  max-height: 100%; /* Ensure iframe doesn't exceed container height */
+}
