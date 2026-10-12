@@ -1,0 +1,16 @@
+title: Hoffmann Muki
+description: Understanding drivers of LLM and AI-agent decisions in high-stakes environments and how those findings can inform AI safety and technology policy.
+url: https://hoffmann-muki.github.io
+baseurl: ""
+email: hoffmuki@gmail.com
+timezone: America/New_York
+markdown: kramdown
+strict_front_matter: true
+liquid:
+  error_mode: strict
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude: [Gemfile, Gemfile.lock, README.md, bin, vendor, scripts, .bundle, .github, node_modules, output, tmp]

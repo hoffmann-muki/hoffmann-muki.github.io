@@ -1,0 +1,41 @@
+- id: conflict-monitoring
+  title: "Are LLMs Ready for Conflict Monitoring? Empirical Evidence from West Africa"
+  authors: "<strong>Hoffmann Muki</strong> and Olukunle Owolabi"
+  venue: ACM FAccT 2026
+  status: Accepted
+  year: 2026
+  topic: LLM decisions in conflict monitoring
+  summary: "An evaluation of bias and robustness in LLM-based conflict-event classification in Nigeria and Cameroon, examining how actor identity and linguistic framing affect model judgments."
+  paper: https://arxiv.org/abs/2605.04177
+  pdf: https://arxiv.org/pdf/2605.04177
+  doi: https://doi.org/10.1145/3805689.3812264
+  alpha: https://www.alphaxiv.org/abs/2605.04177
+  bibtex: |
+    @inproceedings{muki2026conflict,
+      title = {Are LLMs Ready for Conflict Monitoring? Empirical Evidence from West Africa},
+      author = {Muki, Hoffmann and Owolabi, Olukunle},
+      booktitle = {Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency},
+      year = {2026},
+      doi = {10.1145/3805689.3812264}
+    }
+- id: spccl
+  title: "SpCCL: A Sparsity-Aware Collective Communication Library for GPU Platforms"
+  authors: "Lannie Dalton Hough, Emir Gencer, <strong>Hoffmann Muki</strong>, and Abhinav Bhatele"
+  venue: SC 2026
+  status: Accepted
+  year: 2026
+  topic: Systems for machine learning
+  summary: "Sparsity-aware GPU communication algorithms that adapt data representations during collective operations, reducing communication costs for high-performance computing and machine learning."
+  paper: https://arxiv.org/abs/2607.04676
+  pdf: https://arxiv.org/pdf/2607.04676
+  alpha: https://www.alphaxiv.org/abs/2607.04676
+  bibtex: |
+    @misc{hough2026spccl,
+      title = {SpCCL: A Sparsity-Aware Collective Communication Library for GPU Platforms},
+      author = {Hough, Lannie Dalton and Gencer, Emir and Muki, Hoffmann and Bhatele, Abhinav},
+      year = {2026},
+      eprint = {2607.04676},
+      archivePrefix = {arXiv},
+      primaryClass = {cs.DC},
+      note = {Accepted at SC 2026}
+    }

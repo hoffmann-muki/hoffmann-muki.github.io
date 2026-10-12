@@ -1,0 +1,10 @@
+---
+title: Books
+nav: books
+permalink: /books/
+description: Hoffmann Muki's bookshelf, spanning technology, economics, memoirs, and personal development.
+---
+<header class="page-heading"><h1>My bookshelf</h1><p>I enjoy books across technology, business, economics, memoirs, and personal development.</p></header>
+<div class="book-tools" hidden><label class="book-search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="visually-hidden">Search books by title</span><input id="book-search" type="search" placeholder="Search the bookshelf…" autocomplete="off"></label><label class="book-category"><span class="visually-hidden">Filter books by topic</span><select id="book-category"><option value="all">All topics</option><option>Business & economics</option><option>Technology</option><option>Memoir</option><option>Psychology & philosophy</option><option>Society</option><option>Science & mathematics</option></select></label><p id="book-count" role="status" aria-live="polite">{{ site.data.books | size }} books</p></div>
+<section class="book-grid" aria-label="Books">{% for book in site.data.books %}<article class="book" data-title="{{ book.title | escape }}" data-category="{{ book.category | escape }}"><div class="book-cover"><img src="{{ book.image | relative_url }}" alt="Cover of {{ book.title | escape }}" loading="lazy" width="220" height="330"></div><h2>{{ book.title }}</h2><p>{{ book.category }}</p></article>{% endfor %}</section>
+<p id="book-empty" class="empty-state" hidden>No books match that search. Try another title or topic.</p>

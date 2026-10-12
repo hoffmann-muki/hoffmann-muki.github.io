@@ -1,0 +1,12 @@
+- title: About
+  url: /
+  key: about
+- title: Research
+  url: /research/
+  key: research
+- title: Projects
+  url: /projects/
+  key: projects
+- title: Books
+  url: /books/
+  key: books

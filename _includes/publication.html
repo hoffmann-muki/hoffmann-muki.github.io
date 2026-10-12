@@ -1,0 +1,19 @@
+{% assign paper = include.paper %}
+<article class="publication" id="{{ paper.id }}">
+  <div class="publication-venue"><span>{{ paper.venue }}</span>{% if paper.status %}<small>{{ paper.status }}</small>{% endif %}</div>
+  <div class="publication-body">
+    <h3><a href="{{ paper.paper }}">{{ paper.title }}</a></h3>
+    <p class="authors">{{ paper.authors }}</p>
+    {% if include.expanded %}<p class="publication-summary">{{ paper.summary }}</p>{% endif %}
+    <div class="paper-links">
+      <a href="{{ paper.pdf }}">PDF <span aria-hidden="true">↗</span></a>
+      {% if include.expanded %}
+      {% if paper.doi %}<a href="{{ paper.doi }}">ACM <span aria-hidden="true">↗</span></a>{% endif %}
+      <a href="{{ paper.alpha }}">alphaXiv <span aria-hidden="true">↗</span></a>
+      {% else %}<a href="{{ '/research/' | relative_url }}#{{ paper.id }}">Citation <span aria-hidden="true">→</span></a>{% endif %}
+    </div>
+    {% if include.expanded %}
+    <details class="citation"><summary>BibTeX citation</summary><div class="citation-content"><pre><code>{{ paper.bibtex | escape }}</code></pre><button class="copy-citation" type="button">Copy citation</button><span class="copy-status" role="status"></span></div></details>
+    {% endif %}
+  </div>
+</article>

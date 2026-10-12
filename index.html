@@ -1,0 +1,28 @@
+---
+nav: about
+description: Hoffmann Muki is a computer science master's student at the University of Maryland studying what drives LLM and AI-agent decisions in high-stakes environments.
+---
+<section class="intro" aria-labelledby="intro-title">
+  <div class="intro-copy">
+    <h1 id="intro-title" class="visually-hidden">About</h1>
+    <p class="affiliation">M.S. Computer Science <span aria-hidden="true">·</span> <a href="https://www.cs.umd.edu/">University of Maryland</a></p>
+    <div class="bio">
+      <p>I study what drives the decisions of LLMs and AI agents in high-stakes environments, such as conflict zones and financial markets.</p>
+      <p>I’m interested in how these findings can inform <strong>AI safety</strong> and <strong>technology policy</strong>. I also have a minor interest in systems for LLMs.</p>
+      <p>I co-founded <a href="{{ '/projects/' | relative_url }}#premierdev">PremierDev</a> and <a href="{{ '/projects/' | relative_url }}#ravafinance">RavaFinance</a> to improve technology innovation and personal finance in Cameroon.</p>
+    </div>
+    {% include social.html %}
+  </div>
+  <figure class="portrait"><img src="{{ '/assets/images/hoffmann-muki.jpeg' | relative_url }}" alt="Hoffmann Muki" width="728" height="728" fetchpriority="high"></figure>
+</section>
+<section class="section" aria-labelledby="bio-title">
+  <div class="section-heading"><h2 id="bio-title">Bio</h2></div>
+  <ol class="bio-timeline">
+    {% for entry in site.data.bio %}
+    <li>
+      <span class="timeline-date">{{ entry.date }}</span>
+      <div class="timeline-content"><h3>{{ entry.title }}</h3><p>{{ entry.description }}</p></div>
+    </li>
+    {% endfor %}
+  </ol>
+</section>

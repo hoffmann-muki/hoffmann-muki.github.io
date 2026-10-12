@@ -1,0 +1,3 @@
+<ul class="social-links" aria-label="Contact and profiles">
+{% for profile in site.data.social %}<li><a href="{{ profile.url }}">{{ profile.title }}<span class="link-arrow" aria-hidden="true">↗</span></a></li>{% endfor %}
+</ul>
