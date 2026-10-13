@@ -1,6 +1,6 @@
 {% assign paper = include.paper %}
 <article class="publication" id="{{ paper.id }}">
-  <div class="publication-venue"><span>{{ paper.venue }}</span>{% if paper.status %}<small>{{ paper.status }}</small>{% endif %}</div>
+  <div class="publication-venue"><span>{{ paper.venue }}</span></div>
   <div class="publication-body">
     <h3><a href="{{ paper.paper }}">{{ paper.title }}</a></h3>
     <p class="authors">{{ paper.authors }}</p>

@@ -93,7 +93,6 @@ figcaption { color: var(--muted); font-size: 12px; margin-top: 12px; }
 .publication + .publication { border-top: 1px solid var(--border); }
 .publication-venue { padding-top: 2px; }
 .publication-venue > span { display: inline-block; background: var(--accent-soft); color: var(--accent); font-weight: 600; font-size: 12px; padding: 5px 10px; border-radius: 3px; }
-.publication-venue small { display: block; color: var(--muted); font-size: 11px; margin: 8px 10px; }
 .publication h3 { max-width: 760px; font-size: 19px; line-height: 1.4; margin-bottom: 8px; }
 .publication h3 a { color: var(--heading); text-decoration: none; }
 .authors { color: var(--muted); font-size: 13px; line-height: 1.7; margin-bottom: 11px; }
@@ -192,7 +191,6 @@ pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 12px; line-heig
   .section-link { font-size: 11px; }
   .publication { grid-template-columns: 1fr; gap: 15px; padding: 23px 0; }
   .publication-venue { display: flex; align-items: center; gap: 10px; }
-  .publication-venue small { margin: 0; }
   .publication h3 { font-size: 18px; }
   .publication-summary { font-size: 13px; }
   .footer-inner { padding: 22px; font-size: 10px; gap: 15px; }
