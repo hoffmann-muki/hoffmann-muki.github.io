@@ -8,7 +8,7 @@
   summary: "An evaluation of bias and robustness in LLM-based conflict-event classification in Nigeria and Cameroon, examining how actor identity and linguistic framing affect model judgments."
   paper: https://arxiv.org/abs/2605.04177
   pdf: https://arxiv.org/pdf/2605.04177
-  doi: https://doi.org/10.1145/3805689.3812264
+  doi: https://doi.org/10.48550/arXiv.2605.04177
   alpha: https://www.alphaxiv.org/abs/2605.04177
   bibtex: |
     @inproceedings{muki2026conflict,
@@ -16,7 +16,7 @@
       author = {Muki, Hoffmann and Owolabi, Olukunle},
       booktitle = {Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency},
       year = {2026},
-      doi = {10.1145/3805689.3812264}
+      doi = {10.48550/arXiv.2605.04177}
     }
 - id: spccl
   title: "SpCCL: A Sparsity-Aware Collective Communication Library for GPU Platforms"

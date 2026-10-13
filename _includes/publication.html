@@ -8,7 +8,7 @@
     <div class="paper-links">
       <a href="{{ paper.pdf }}">PDF <span aria-hidden="true">↗</span></a>
       {% if include.expanded %}
-      {% if paper.doi %}<a href="{{ paper.doi }}">ACM <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if paper.doi %}<a href="{{ paper.doi }}">DOI <span aria-hidden="true">↗</span></a>{% endif %}
       <a href="{{ paper.alpha }}">alphaXiv <span aria-hidden="true">↗</span></a>
       {% else %}<a href="{{ '/research/' | relative_url }}#{{ paper.id }}">Citation <span aria-hidden="true">→</span></a>{% endif %}
     </div>
